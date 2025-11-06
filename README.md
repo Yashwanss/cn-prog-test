@@ -244,8 +244,6 @@ Network-Routing-Simulator/
 
 ## Learning Outcomes
 
-By working with this project, you will understand:
-
 - How distributed routing protocols operate without centralized control
 - The difference between distance vector and link state algorithms
 - Why link state protocols converge faster but require more memory
