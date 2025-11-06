@@ -86,24 +86,31 @@ This project implements and simulates two fundamental network routing algorithms
 <!-- Add your screenshots below by replacing the placeholder paths -->
 
 ### Network Topology Visualization
-![Network Topology with Active Links](<img width="1481" height="862" alt="image" src="https://github.com/user-attachments/assets/e92acb7b-94cf-4477-b6bb-87b9c516f94a" />
-)
+<img alt="Network Topology with Active Links" src="https://github.com/user-attachments/assets/e92acb7b-94cf-4477-b6bb-87b9c516f94a" />
 *Real-time visualization of network topology with routers, clients, and active links*
 
 ### Distance Vector Routing in Action
-![Distance Vector Routing Table](images/dv_routing_table.png)
+<img  alt="image" src="https://github.com/user-attachments/assets/df04ebc2-b4a1-491b-8d5e-947cf0f54390" />
 *Distance Vector routing tables showing hop counts and next-hop information*
 
 ### Link State Protocol Visualization
-![Link State Network Visualization](images/ls_network.png)
+<img alt="image" src="https://github.com/user-attachments/assets/261207e3-f566-4272-9986-a0b198a5e4e8" />
 *Link State protocol with Dijkstra's algorithm computing shortest paths*
 
 ### Dynamic Link Failure Response
-![Link Failure Recovery](images/link_failure.png)
+<img alt="image" src="https://github.com/user-attachments/assets/79e5f3fd-d941-49aa-8b15-216aa3ce3cdb" />
+<img alt="image" src="https://github.com/user-attachments/assets/50b57dfd-b2b0-4ec0-8f17-dd7caf2f42fe" />
 *Network adapting to link failure - observe routing table updates and convergence*
+- The screenshots above show:
+
+    At time 12s: Link C-D goes down.
+
+    At time 24s: Link C-D comes back up with a higher cost (9), and link A-D goes down
+
 
 ### Packet Flow Animation
-![Packet Transmission](images/packet_animation.png)
+![20251106-1605-46 0200678](https://github.com/user-attachments/assets/e22f3ded-590e-4f79-88ea-a9ebb8a17d78)
+
 *Animated packet flow showing data traversing through the network*
 
 ## Getting Started
@@ -258,7 +265,3 @@ Contributions are welcome! To contribute:
 ## License
 
 This project is open source and available under the MIT License.
-
----
-
-**Note:** To add screenshots, create an `images/` folder in the root directory and place your screenshots there, then update the image paths in the Screenshots section above.
