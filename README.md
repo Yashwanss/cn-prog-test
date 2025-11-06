@@ -126,7 +126,7 @@ This project implements and simulates two fundamental network routing algorithms
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/NetSim-Routing-Simulator.git
+   git clone https://github.com/yashwanss/Network-Routing-Simulator.git
    cd NetSim-Routing-Simulator
    ```
 
