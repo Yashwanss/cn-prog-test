@@ -86,7 +86,8 @@ This project implements and simulates two fundamental network routing algorithms
 <!-- Add your screenshots below by replacing the placeholder paths -->
 
 ### Network Topology Visualization
-![Network Topology with Active Links](images/network_topology.png)
+![Network Topology with Active Links](<img width="1481" height="862" alt="image" src="https://github.com/user-attachments/assets/e92acb7b-94cf-4477-b6bb-87b9c516f94a" />
+)
 *Real-time visualization of network topology with routers, clients, and active links*
 
 ### Distance Vector Routing in Action
