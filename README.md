@@ -1,5 +1,7 @@
 # Network Routing Simulator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## Overview
 
 This project implements and simulates two fundamental network routing algorithms: **Distance Vector Routing** and **Link State Routing**. Network Routing Simulator provides a comprehensive, event-driven network simulation environment where users can create custom network topologies, inject dynamic events (like link failures and cost changes), and observe how routing protocols adapt in real-time. The simulator includes an interactive GUI visualization tool that displays routing tables, packet transmission, and network state changes, making it an ideal educational and research platform for understanding distributed routing algorithms.
@@ -262,6 +264,3 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is open source and available under the MIT License.
