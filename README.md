@@ -1,15 +1,15 @@
-# Interactive Network Routing Simulator
+# Network Routing Simulator
 
 ## Overview
 
-This project implements and simulates two fundamental network routing algorithms: **Distance Vector Routing** and **Link State Routing**. NetSim provides a comprehensive, event-driven network simulation environment where users can create custom network topologies, inject dynamic events (like link failures and cost changes), and observe how routing protocols adapt in real-time. The simulator includes an interactive GUI visualization tool that displays routing tables, packet transmission, and network state changes, making it an ideal educational and research platform for understanding distributed routing algorithms.
+This project implements and simulates two fundamental network routing algorithms: **Distance Vector Routing** and **Link State Routing**. Network Routing Simulator provides a comprehensive, event-driven network simulation environment where users can create custom network topologies, inject dynamic events (like link failures and cost changes), and observe how routing protocols adapt in real-time. The simulator includes an interactive GUI visualization tool that displays routing tables, packet transmission, and network state changes, making it an ideal educational and research platform for understanding distributed routing algorithms.
 
 ## Novelty
 
 ### Key Innovations
 
 - **Event-Driven Dynamic Simulation:**
-  - Unlike static routing simulators, NetSim supports **time-based network events** defined in JSON configuration files. You can schedule link failures, cost changes, and topology modifications at specific timestamps, allowing you to test protocol resilience and convergence behavior under realistic network conditions.
+  - Unlike static routing simulators, Network Routing Simulator supports **time-based network events** defined in JSON configuration files. You can schedule link failures, cost changes, and topology modifications at specific timestamps, allowing you to test protocol resilience and convergence behavior under realistic network conditions.
   
 - **Real-Time Interactive Visualization:**
   - Built-in **Tkinter GUI** provides live visualization of the network topology, routing table updates, and packet flow animations. Users can click on routers to inspect their internal state, debug strings, and forwarding tables in real-time.
@@ -127,7 +127,7 @@ This project implements and simulates two fundamental network routing algorithms
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yashwanss/Network-Routing-Simulator.git
-   cd NetSim-Routing-Simulator
+   cd Network-Routing-Simulator
    ```
 
 2. **Install required dependencies:**
@@ -216,7 +216,7 @@ bash test_scripts/test_dv_ls.sh
 ## Project Structure
 
 ```
-NetSim-Routing-Simulator/
+Network-Routing-Simulator/
 ├── router.py                           # Base Router class
 ├── distance_vector_router.py           # Distance Vector (Bellman-Ford) implementation
 ├── link_state_router.py                # Link State (Dijkstra) implementation
