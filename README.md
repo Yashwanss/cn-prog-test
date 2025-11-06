@@ -1,10 +1,10 @@
-# NetSim: Interactive Network Routing Simulator
+# Interactive Network Routing Simulator
 
 ## Overview
 
 This project implements and simulates two fundamental network routing algorithms: **Distance Vector Routing** and **Link State Routing**. NetSim provides a comprehensive, event-driven network simulation environment where users can create custom network topologies, inject dynamic events (like link failures and cost changes), and observe how routing protocols adapt in real-time. The simulator includes an interactive GUI visualization tool that displays routing tables, packet transmission, and network state changes, making it an ideal educational and research platform for understanding distributed routing algorithms.
 
-## Novelty & What Makes This Different
+## Novelty
 
 ### Key Innovations
 
@@ -39,12 +39,12 @@ This project implements and simulates two fundamental network routing algorithms
 
 ## Features
 
-- **Distance Vector Router** (`distance_vector_router.py`): 
+- **Distance Vector Router** (`distance_vector_router.py`):
   - Implements the Bellman-Ford algorithm with split-horizon and poison reverse optimizations
   - Periodic heartbeat-based routing updates
   - Handles link failures and cost changes dynamically
   
-- **Link State Router** (`link_state_router.py`): 
+- **Link State Router** (`link_state_router.py`):
   - Implements Dijkstra's shortest path algorithm
   - Sequence number-based flooding to prevent routing loops
   - Uses NetworkX for efficient graph operations
@@ -56,30 +56,30 @@ This project implements and simulates two fundamental network routing algorithms
   - Support for multiple network topologies from JSON configuration
   - Client traffic generation with configurable send rates
   
-- **Packet Handling** (`packet.py`): 
+- **Packet Handling** (`packet.py`):
   - Models data packets with source/destination addressing
   - Traceroute functionality for path discovery
   - Packet animation support for visualization
   
-- **Interactive Visualization** (`visualize_networks.py`): 
+- **Interactive Visualization** (`visualize_networks.py`):
   - Real-time GUI using Tkinter
   - Network topology visualization with animated packet flow
   - Live routing table display
   - Router debug information on-click
   - Configurable animation speed
   
-- **Client Interface** (`client.py`): 
+- **Client Interface** (`client.py`):
   - Traffic generation for testing routing protocols
   - Simulates end hosts sending packets through the network
 
 ## Achievements
 
-- ✅ **Full Protocol Implementation:** Both Distance Vector and Link State protocols implemented from scratch with proper convergence guarantees
-- ✅ **Dynamic Event Handling:** Successfully handles link failures, recoveries, and cost changes with automatic route recalculation
-- ✅ **Real-Time Visualization:** Interactive GUI that displays routing tables, packet animations, and network state changes
-- ✅ **Scalability Testing:** Tested with small, medium, and large network topologies (up to dozens of routers)
-- ✅ **Convergence Analysis:** Demonstrated faster convergence of Link State vs. Distance Vector protocols
-- ✅ **Educational Impact:** Clear visualizations make complex routing concepts accessible and understandable
+- **Full Protocol Implementation:** Both Distance Vector and Link State protocols implemented from scratch with proper convergence guarantees
+- **Dynamic Event Handling:** Successfully handles link failures, recoveries, and cost changes with automatic route recalculation
+- **Real-Time Visualization:** Interactive GUI that displays routing tables, packet animations, and network state changes
+- **Scalability Testing:** Tested with small, medium, and large network topologies (up to dozens of routers)
+- **Convergence Analysis:** Demonstrated faster convergence of Link State vs. Distance Vector protocols
+- **Educational Impact:** Clear visualizations make complex routing concepts accessible and understandable
 
 ## Screenshots / Implementation
 
