@@ -1,10 +1,13 @@
-# Network Routing Simulator
+# Distributed Routing Algorithm Simulator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Overview
 
 This project implements and simulates two fundamental network routing algorithms: **Distance Vector Routing** and **Link State Routing**. Network Routing Simulator provides a comprehensive, event-driven network simulation environment where users can create custom network topologies, inject dynamic events (like link failures and cost changes), and observe how routing protocols adapt in real-time. The simulator includes an interactive GUI visualization tool that displays routing tables, packet transmission, and network state changes, making it an ideal educational and research platform for understanding distributed routing algorithms.
+
+### Distributed Concurrency Model
+Unlike static simulators, this engine runs each router in its own independent thread. Routers possess no global knowledge of the network; they build their forwarding tables autonomously by exchanging routing packets via thread-safe queues, accurately mimicking real-world distributed systems.
 
 ## Novelty
 
@@ -114,6 +117,12 @@ This project implements and simulates two fundamental network routing algorithms
 ![20251106-1605-46 0200678](https://github.com/user-attachments/assets/e22f3ded-590e-4f79-88ea-a9ebb8a17d78)
 
 *Animated packet flow showing data traversing through the network*
+
+## 🚀 Tech Stack
+*   **Core Engine:** Python 3.8+ (Multi-threading, Queue management)
+*   **Algorithms:** Graph Theory, Dijkstra's Algorithm, Bellman-Ford Algorithm
+*   **Graph Processing:** `networkx`
+*   **Visualization:** `tkinter` (Real-time GUI)
 
 ## Getting Started
 
